@@ -1,0 +1,22 @@
+1. Please Create a database named grievence
+2. Run the Following Queries in that database
+	
+	CREATE TABLE users (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    role varchar(50) NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+	);
+	
+	CREATE TABLE complaints(name varchar(100),
+                        email varchar(50),
+                        token int(5),
+                        level varchar(30),
+                        subcategory varchar(40),
+                        complaint varchar(100000),
+                        status varchar(30),
+                        comments varchar(5000));
+						
+3. Once you Sign up Go to database and assign roles
+4. home.php is the main file Run this file in browser

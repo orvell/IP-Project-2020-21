@@ -1,0 +1,487 @@
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: 'Poppins', sans-serif;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://i.postimg.cc/YjcJg24M/aa.jpg);
+}
+
+.wrapper
+{
+	width: 1170px;
+	margin: auto;
+}
+
+header
+{
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+.heading
+{
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: center;
+	color:ivory;
+	padding: 20px 20px;
+	font-size: 30px;
+	font-weight: normal;
+}
+
+.nav-area
+{
+	float: right;
+	list-style: none;
+	margin-top:20px;
+}
+
+.nav-area li
+{
+	display: inline-block;
+}
+
+.nav-area li a
+{
+	color: #fff;
+	text-decoration: none;
+	padding: 12px 16px;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.nav-area li a:hover
+{
+	background:linear-gradient(90deg,#00fecb,cyan);
+	color: black;
+	border: 3px;
+	border-radius: 7px;
+	border-color: cyan;
+	box-shadow: 0 0 5px cyan;
+}
+
+.nav-area a:hover
+{
+background-color: rgb(72, 241, 233);
+}
+
+.nav-area dropdown-content
+{
+  float: left;
+  overflow: hidden;
+}
+.dropdown
+{
+	color: #fff;
+	text-decoration: none;
+	font-family: poppins;
+	font-size: 16px;
+	text-transform: uppercase;
+	list-style: none;
+	margin-top:0;
+	padding-left: 2px;
+}
+
+.dropdown li:hover
+{
+	background: rgb(72, 242, 233);
+	color: rgb(243, 239, 239);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content
+{
+  display: none;
+  position: absolute;
+  background-color:transparent;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a
+{
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover
+{
+  background-color:white;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content
+{
+  display: block;
+}
+
+.logo
+{
+	float: left;
+}
+
+.logo img
+{
+	width: 50%;
+	padding: 5px 0;
+}
+
+.welcome-text
+{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+
+.welcome-text h1
+{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+
+.welcome-text h1 span
+{
+	color: #00fecb;
+}
+
+.welcome-text a
+{
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+
+.welcome-text a:hover
+{
+	background:linear-gradient(90deg,#00fecb,cyan);
+	color: #333;
+	border-color: cyan;
+	box-shadow: 0 0 3px cyan;
+}
+
+.c
+{
+    position:absolute;
+    top: 35%;
+    left:30%
+}
+
+button
+{
+  text-transform: uppercase;
+ 	background-color: inherit;
+ 	margin: 18px;
+	font-size: 14px;
+	font-family: 'poppins'sans-serif;
+  font-style: normal;
+  color: #fff;
+	width:150px;
+	height:50px;
+	border: 3px;
+	border-radius: 15px;
+	border-color: cyan;
+	box-shadow: 0 0 15px cyan;
+}
+
+h4
+{
+	padding-left: 20px;
+	padding-bottom: 5px;
+	font-family: 'poppins'sans-serif;
+	font-style: normal;
+	font-size: 25px;
+	color: #fff;
+}
+
+.about h1
+{
+	text-align:left;
+	margin-top: 7%;
+	font-family: 'Poppins'sans-serif;
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+	padding: 25px;
+	letter-spacing: 2px;
+}
+
+.about p
+{
+	font-family: 'Poppins'sans-serif;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 1px;
+	padding: 25px;
+	text-align: justify;
+}
+
+.contact h1
+{
+	text-align:left;
+	margin-top: 7%;
+	font-family: 'Poppins'sans-serif;
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+	padding: 25px;
+	letter-spacing: 2px;
+}
+
+.contact p
+{
+	font-family: 'Poppins'sans-serif;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 1px;
+	padding: 25px;
+	text-align: justify;
+}
+
+
+.complaint-form
+{
+	text-transform: uppercase;
+	padding-left: 20px;
+	padding-top: 15px;
+	font-family: 'poppins'sans-serif;
+	font-style: normal;
+	font-size: 20px;
+	color: rgb(252, 246, 246);
+}
+
+.complaint-form textarea
+{
+	border-radius: 2px;
+	padding:3px;
+	font-family: 'poppins'sans-serif;
+	font-size: 13px;
+	color: rgb(7, 7, 7);
+}
+
+.complaint-form-1
+{
+	border-radius: 3px;
+	padding-left: 20px;
+}
+
+.effect
+{
+	width: 200px;
+	height: 20px;
+	border-radius: 4px;
+}
+
+.token
+{
+		position: absolute;
+		top: 35%;
+		left:40%;
+		font-size: 25px;
+		font-family:'Poppins' sans-serif;
+		font-weight: bold;
+		color: #fff;
+}
+
+.token input
+{
+    width:130px;
+    height: 30px;
+    font-size: 18px;
+    padding-left:8px ;
+    border-radius: 5px;
+}
+
+.subbut
+{
+    position: absolute;
+		top: 45%;
+    left:45%;
+}
+
+button:hover
+{
+    background-color: turquoise;
+    color: black;
+}
+
+.deptbut
+{
+    position: absolute;
+	top: 45%;
+    left:37%;
+}
+pre
+{
+	font-size: 30px;
+	color: white;
+	padding-left: 15px;
+	font-family: 'Poppins' sans-serif;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: blue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/*resposive*/
+
+@media (max-width:600px)
+{
+	.wrapper
+	{
+		width: 100%;
+		margin:auto;
+	}
+
+	.logo
+	{
+		float: none;
+		padding-top: 20px;
+		width: 140px;
+		text-align: center;
+		margin: auto;
+	}
+
+	.nav-area
+	{
+		padding-top: 10px;
+		float: none;
+		margin-top: 0;
+		list-style: none;
+		text-align: center;
+	}
+
+	.nav-area li a
+	{
+		padding-left: 5px;
+		padding: 5px;
+		font-size: 16px;
+		padding-right: 5px;
+	}
+	.welcome-text
+	{
+		position: absolute;
+		top: 30%;
+		width: 100%;
+		height: 100%;
+		margin: 30% 0;
+	}
+
+	.welcome-text h1
+	{
+		padding:5px 5px;
+		font-size: 30px;
+	}
+	h1
+	{
+		font-size: 20px;
+	}
+	.c
+	{
+	    position:absolute;
+	    top: 40%;
+	    left:18%;
+	}
+	.token
+	{
+			top: 45%;
+			left:22%;
+			font-size: 20px;
+	}
+
+	.token input
+	{
+	    width:130px;
+	    height: 25px;
+	    font-size: 15px;
+	}
+	.subbut
+	{
+			top: 55%;
+	    left:17%;
+	}
+	h4
+	{
+		font-size: 15px;
+	}
+	.complaint-form textarea
+	{
+	width: 90%;
+	}
+	.deptbut
+	{
+			top: 45%;
+	    left:20%;
+	}
+	.about h1
+	{
+		font-size: 20px;
+		padding: 15px;
+	}
+
+	.about p
+	{
+		font-size: 15px;
+		padding: 10px;
+		}
+
+	pre
+		{
+			font-size: 13px;
+			padding-left: 0px;
+
+
+		}
+		.contact h1
+		{
+			font-size: 20px;
+
+		}
+		.contact p
+		{
+			font-size: 15px;
+			padding: 5px;
+		}
+
+}

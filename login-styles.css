@@ -1,0 +1,144 @@
+body
+{
+  font: 14px sans-serif;
+}
+.division
+{
+  padding: 20px;
+  font-family: sans-serif;
+  width:420px;
+  height:420px;
+  background-color: inherit;
+  color: inherit;
+  top:60%;
+  left:50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  box-shadow: 0 0 30px cyan;
+  border-radius: 1rem;
+}
+
+.form-group
+{
+  width: 50%;
+  padding: 10px 10px ;
+}
+.division h2
+{
+  font-family: 'poppins' sans-serif;
+  font-size: 35px;
+  color: #fff;
+  padding-bottom: 4px;
+}
+.division p
+{
+  font-family: 'poppins'sans-serif;
+  color: #fff;
+  padding: 3px 3px;
+  font-size: 16px;
+}
+
+.form-group label
+{
+  font-family: 'poppins'sans-serif;
+  color: #fff;
+  padding-bottom: 10px;
+  font-size: 15px;
+
+}
+.form-control
+{
+  width:160%;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  outline-color: #fff;
+  padding: 4px;
+  box-sizing: border-box;
+  transition: 3s;
+  box-shadow: 0 0 8px cyan;
+  border-color: cyan;
+}
+.help-block
+{
+  width: 200px;
+  font-family: 'poppins'sans-serif;
+  color: red;
+  font-size: 10px;
+}
+.btn
+{
+  font-size: 16px;
+  width: 60px;
+  height: 30px;
+  border-radius: 3px;
+  transition: 3s;
+  box-shadow: 0 0 8px cyan;
+  border-color: cyan;
+  border-width: 2px;
+
+}
+/* unvisited link */
+a:link
+{
+  color: white;
+}
+/* visited link */
+a:visited {
+  color: white;
+}
+/* mouse over link */
+a:hover {
+  color: cyan;
+}
+/* selected link */
+a:active {
+  color: blue;
+}
+
+/*resposive*/
+@media(max-width:600px)
+{
+  .division
+  {
+    width:200px;
+    height:250px;
+    top:75%;
+  }
+  .division h2
+  {
+    font-size: 18px;
+  }
+  .division p
+  {
+    font-size: 8px;
+  }
+  .division form-group
+  {
+    padding-bottom: 10px;
+  }
+  .form-group
+  {
+      padding-bottom: 0px;
+    }
+  .form-group label
+  {
+    font-size: 10px;
+    padding-bottom: : 5px;
+  }
+  .form-group input
+  {
+      width: 110px;
+      height: 18px;
+      font-size: 10px;
+  }
+  .btn
+  {
+    width: 2px;
+    height: 5px;
+    padding-bottom: 3px;
+  }
+
+}
