@@ -23,4 +23,5 @@
                         comments varchar(5000));
 						
 3. Once you Sign up Go to database and assign roles
+	Writes Roles(Case sensitive) with following keywords- Student / Department / College / University 
 4. home.php is the main file Run this file in browser
