@@ -1,7 +1,7 @@
 # IP-Project-2020-21
   ## Student Grievance Portal
-# Read the instructions file care fully before running the code [here..](instruction)
-### Home page file [here..](home.php)
+# Read the instructions file care fully before running the code [Click here..](instruction)
+### Home page file [Click here..](home.php)
 ## Project made by:
 #### Sloan Dcunha Roll No: 8659
 #### Clint Ferreira Roll No: 8670
