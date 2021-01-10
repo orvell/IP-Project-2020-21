@@ -1,7 +1,7 @@
 # IP-Project-2020-21
   ## Student Grievance Portal
 # Read the instructions file care fully before running the code
-[instructions](/instuction.txt)
+[instructions](orvell/IP-Project-2020-21/instuction.txt)
 ## Praject made by:
 #### Sloan Dcunha Roll No: 8659
 #### Clint Ferreira Roll No: 8670
